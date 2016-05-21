@@ -1,0 +1,50 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+#pillHolder{
+	margin-top:30px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 8s linear infinite;
+    -moz-animation:spin 8s linear infinite;
+    animation:spin 8s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+#whitePill{
+	margin-right:-5px;
+	padding:0px;
+}
+#redPill{
+	margin-right:5px;
+}
+#sideBar{
+	background:gray;
+}
+#preBox{
+	width:500px;
+	border: 15px solid black;
+	margin:0px;
+	padding: 15px;
+}
+canvas#demo-canvas{
+	height:800px;
+}
+/*#hide{
+	display:none;
+}*/
